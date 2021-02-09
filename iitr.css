@@ -1,0 +1,177 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#header {
+    background-image: url("https://www.iitr.ac.in/Main/assets/images/top7.jpg");
+    height: 400px;
+    background-size: cover;
+}
+
+.quote {
+    font-size: 8pt;
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+}
+
+.vid_hed{
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 10px;
+    color: coral;
+}
+
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+
+form {
+    text-align: center;
+    margin-top: 0;
+}
+
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+
+textarea {
+    height: 100px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+#follow img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#follow a {
+    text-decoration: none;
+}
+
+#follow img:hover {
+    opacity: 0.8;
+}
+
+#follow {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+@media (prefers-color-scheme: dark) {
+    /*body*/
+    body {
+        font-family: 'Handlee', cursive;
+        font-size: 13pt;
+        background-color: #121212;
+        padding: 10px;
+        margin: 0;
+        color: #efefef;
+    }
+
+    /*class: section*/
+    .section {
+        background-color: #000000;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    /*#header*/
+    #header {
+        background-image: url("https://scontent.fhyd15-1.fna.fbcdn.net/v/t1.0-9/146463865_146815557255663_8362287428765678091_n.jpg?_nc_cat=111&ccb=2&_nc_sid=730e14&_nc_ohc=tuhtlZk4CQwAX-VBPeb&_nc_ht=scontent.fhyd15-1.fna&oh=0099e4c83838a7681f8ee279f6e1843c&oe=60488BEA");
+        height: 400px;
+        background-size: cover;
+    }
+}
+
+@media (prefers-color-scheme: light){
+    /*body*/
+    body {
+        font-family: 'Handlee', cursive;
+        font-size: 13pt;
+        background-color: #efefef;
+        padding: 10px;
+        margin: 0;
+    }
+
+    /*class: section*/
+    .section {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    /*div id: header*/
+    #header {
+        background-image: url("https://www.iitr.ac.in/Main/assets/images/top7.jpg");
+        height: 400px;
+        background-size: cover;
+    }
+}
