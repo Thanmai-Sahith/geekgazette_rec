@@ -32,8 +32,9 @@ h1 span {
 
 #header {
     background-image: url("https://www.iitr.ac.in/Main/assets/images/top7.jpg");
-    height: 500px;
+    height: 400px;
     background-size: cover;
+    background-attachment: local;
 }
 
 .quote {
@@ -145,8 +146,9 @@ input, textarea {
     /*#header*/
     #header {
         background-image: url("https://scontent.fhyd15-1.fna.fbcdn.net/v/t1.0-9/146463865_146815557255663_8362287428765678091_n.jpg?_nc_cat=111&ccb=2&_nc_sid=730e14&_nc_ohc=tuhtlZk4CQwAX-VBPeb&_nc_ht=scontent.fhyd15-1.fna&oh=0099e4c83838a7681f8ee279f6e1843c&oe=60488BEA");
-        height: 500px;
+        height: 400px;
         background-size: cover;
+        background-attachment: local;
     }
 }
 
@@ -171,7 +173,8 @@ input, textarea {
     /*div id: header*/
     #header {
         background-image: url("https://www.iitr.ac.in/Main/assets/images/top7.jpg");
-        height: 500px;
+        height: 400px;
         background-size: cover;
+        background-attachment: local;
     }
 }
